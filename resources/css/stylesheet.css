@@ -4,9 +4,11 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0,9;
+  text-align: center;
   }
 
 header {
+  top: 0px;
   left: 0px;
   display: inline-flex;
   align-items: center;
@@ -15,6 +17,7 @@ header {
   position: fixed;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
+  background-color: black;
   }
 
 #logo {
@@ -33,4 +36,33 @@ header {
   margin-left: 20px;
   text-decoration: underline;
   color: seashell;
+  }
+
+/* Page Content */
+
+.container {
+  display: flex;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg"); )
+  display: inline-flex;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+
+}
+
+.text_content {
+  position: relative;
+  top: 50%;
+  background-color: black;
+  display: block;
+  align-items: center;
+  width: 1200px;
+  align-items: center;
+}
+
+h2 h4 {
+  display: block;
   }
