@@ -3,8 +3,9 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0,9;
+  opacity: 0.9;
   text-align: center;
+  margin: 0px;
   }
 
 header {
@@ -42,6 +43,7 @@ header {
 
 .container {
   display: flex;
+  justify-content: center;
 }
 
 #mission {
@@ -50,10 +52,10 @@ header {
   height: 700px;
   width: 1200px;
   justify-content: center;
-
+  margin-bottom: 20px;
 }
 
-.text_content {
+#mission .text_content {
   position: relative;
   top: 50%;
   background-color: black;
@@ -63,6 +65,9 @@ header {
   align-items: center;
 }
 
-h2 h4 {
+h2, h4 {
   display: block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10px;
   }
