@@ -49,8 +49,10 @@ header {
   align-items: center;
 }
 
-h2, h4 {
+h2, h3, h4 {
   display: block;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 0px;
   margin-top: 0px;
   padding: 10px;
@@ -59,7 +61,7 @@ h2, h4 {
 .text_content {
   display: block;
   align-items: center;
-}
+  }
 
 #mission {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg"); )
@@ -77,7 +79,7 @@ h2, h4 {
   width: 1200px;
   }
 
-#teaofmonth {
+#featured {
   display: block;
   width: 1000px
 }
@@ -87,6 +89,7 @@ h2, h4 {
   flex-wrap: wrap;
   justify-content: center;
   width: 1000px;
+  margin-bottom: 30px;
 }
 
 #selection img {
@@ -98,4 +101,43 @@ h2, h4 {
 
 #selection span {
   display: block;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;}
+
+.location {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#locations h2 {
+  margin-bottom: 5px;
+}
+
+#blocks {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#mission, #featured, #locations {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
